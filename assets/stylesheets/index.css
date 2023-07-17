@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.top-container{
+    height: 100vh;
+    background-color: #E4F9F5;
+    position: relative;
+    font-size: 22px;
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: 0;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #11999E;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'VT323', monospace;
+
+}
+
+h1{
+    margin:0 auto;
+    font-size: 450%;
+    font-weight: 120;
+    color: #66BFBF;
+    line-height: 1.8;
+    font-family: 'Pacifico', cursive;
+
+}
+
+h2{
+    color: #66BFBF;
+    font-weight: normal;
+    font-size: 30px;
+    font-family: 'Fasthand', cursive;
+}
+
+.land-image{
+    padding-top: 100px;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 50%;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    padding-top: 20px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 350px;
+}
+
+.center{
+    text-align: center;
+}
+
+.about{
+    background-color: #FFD0D0;
+    height: 100vh;
+}
+
+.my-image{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    height: 300px ;
+    width: 300px;
+}
+
+h3{
+    overflow: hidden;
+    padding: 20px 10px;
+    color: #66BFBF;
+    font-family: 'Tektur', cursive;
+    font-size: 3em;
+}
+
+.about-content>p{
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: 'Lilita One', cursive;
+    font-weight: lighter;
+}
+
+.projects{
+    background-color: #E4F9F5;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h4{
+    overflow: hidden;
+    font-size: 2em;
+    color: #66BFBF;
+}
+
+.skills{
+    background-color: #FFD0D0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h5{
+    overflow: hidden;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.chart-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chart-item {
+    margin-bottom: 10px;
+  }
+  
+  .chart-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: 'Permanent Marker', cursive;
+  }
+  
+  .chart-bar {
+    background-color: #f0f0f0;
+    height: 15px;
+    border-radius: 10px;
+  }
+
+  .chart-bar1{
+    background-color: #f0f0f0;
+    height: 5px;
+    border-radius: 3px;
+    width: 37%;
+  }
+  
+  .chart-progress {
+    height: 100%;
+    background-color: blue;
+  }
+  
+  .chart-percent {
+    float: right;
+    margin-top: -25px;
+  }
+  
+
+footer{
+    background-color: black;
+    height: 175px; 
+}
+
+footer ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 35px;
+    font-family: 'Satisfy', cursive;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.copy{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.copy a{
+    text-decoration: none;
+    color: white;
+}
+
+h6{
+    color: #11999E;
+    text-align: center;
+    overflow: hidden;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Courgette', cursive;
+}
+
+.project-intro{
+    font-family: 'Lilita One', cursive;
+}
+
+.project-title{
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.project-source{
+    font-family: 'Courgette', cursive;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+   .top-cloud{
+    position: absolute;
+    right: 20px;
+    top: 130px;
+    padding-top: 20px;
+   }
+
+   h1{
+    margin:0 auto;
+    font-size: 300%;
+    font-weight: 120;
+    color: #66BFBF;
+    line-height: 1.8;
+    font-family: 'Pacifico', cursive;
+
+    }
+
+   .bottom-cloud{
+    position: absolute;
+    left: 20px;
+    bottom: 280px;
+   }
+
+   .land-image{
+    padding-top: 150px;
+    display: block;
+    width: 80%;
+    height: 54%;
+   }
+
+   .projects{
+    overflow: scroll;
+   }
+
+   .skills{
+    overflow: scroll;
+   }
+
+   .footer{
+    height: 500px;
+   }
+}
+
+
+
+
+
+
+
